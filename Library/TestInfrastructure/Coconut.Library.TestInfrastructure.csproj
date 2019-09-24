@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Product>Framework</Product>
+    <AssemblyVersion>0.1</AssemblyVersion>
+    <FileVersion>0.1.0.1</FileVersion>
+    <Version>0.1.0</Version>
+    <Authors>Jos van Nijnatten</Authors>
+    <Company>Coconut</Company>
+    <Copyright>(c) 2017 Jos van Nijnatten</Copyright>
+    <RepositoryUrl>https://github.com/Euphemism-Inc</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <NeutralLanguage />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.0\Coconut.Framework.TestInfrastructure.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
+  </ItemGroup>
+
+</Project>
